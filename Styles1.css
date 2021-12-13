@@ -1,0 +1,46 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: Grey;
+
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login1 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:450px;
+    height:420px;
+    padding: 80px 40px;
+    box-sizing:border-box;
+    background: rgba(0,0,0,0.5);
+
+}
+
+.adminhead {
+    width: 80px;
+    height:85px;
+    overflow:hidden;
+    top:calc(-100px/2);
+    left:calc(50% - 50px);
+    position:absolute;
+}
+
+h2{
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:rgb(255, 217, 9);
+
+}
+
+
+
+
+
